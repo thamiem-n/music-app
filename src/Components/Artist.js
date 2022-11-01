@@ -1,6 +1,6 @@
 import React from 'react'
 import Album from './Album';
-
+//old
 const Artist = ({name, age, genre, album}) => {
     return(
         <div className='artist-container'>
