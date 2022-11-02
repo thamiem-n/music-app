@@ -6,9 +6,9 @@
 body {
 	background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
 }
-button, a{
+button,
+a {
 	cursor: pointer;
-
 }
 
 li {
@@ -30,7 +30,7 @@ hr {
 	font-size: 20px;
 }
 
-.aritst-item {
+.artist-item {
 	margin: 7px 0;
 }
 
@@ -133,7 +133,7 @@ hr {
 	}
 }
 
-.back-btn { 
+.back-btn {
 	padding: 10px;
 	border: 1px solid black;
 	font-size: 20px;
@@ -143,7 +143,7 @@ hr {
 	transition: 0.3s ease-in-out;
 }
 
-.back-btn:hover { 
+.back-btn:hover {
 	background-color: rgba(0, 0, 0, 0.6);
 	color: white;
 }
@@ -153,14 +153,11 @@ hr {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-
 }
 
-.center { 
-	
-	text-align: center; 
+.center {
+	text-align: center;
 	margin-bottom: 10px;
-	
 }
 .rankings-item {
 	width: 100%;
@@ -168,8 +165,20 @@ hr {
 	text-align: center;
 	list-style-type: decimal;
 	margin: 10px 0;
-	padding: 10px 0;
+	padding: 20px 0;
 	border-radius: 6px;
 	cursor: pointer;
+	text-decoration: none;
+	font-size: 24px;
+	transition: 0.3s ease-in-out;
+}
 
+.rankings-item:hover {
+	background-color: #c73852;
+	transform: translateX(10px);
+}
+
+.rankings-item li {
+	list-style: decimal;
+	color: black;
 }

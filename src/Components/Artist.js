@@ -4,11 +4,11 @@ import Album from "./Album";
 const Artist = ({ name, age, genre, album, img }) => {
 	return (
 		<div className="main-container">
-			<h1 className="aritst-item">{name}</h1>
+			<h1 className="artist-item">{name}</h1>
 			<div className="artist-item-top">
-				<p className="aritst-item top-item">Age: {age}</p>
-				<p className="aritst-item top-item">Genre: {genre}</p>
-				<img className="aritst-item top-item" src={img} />
+				<p className="artist-item top-item">Age: {age}</p>
+				<p className="artist-item top-item">Genre: {genre}</p>
+				<img className="artist-item top-item" src={img} />
 			</div>
 			<Album album={album} />
 			<br />
